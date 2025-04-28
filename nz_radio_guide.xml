@@ -1,4 +1,323 @@
-<tv>
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="nz-radio-guide">
+
+  <!-- CHANNEL DECLARATIONS -->
   <channel id="GeorgeFM"><display-name>George FM</display-name></channel>
-  <programme start="20250501000000" stop="20250501010000" channel="GeorgeFM"><title>George Breakfast with Lee & Tammy</title></programme>
+  <channel id="ZM"><display-name>ZM</display-name></channel>
+  <channel id="TheEdge"><display-name>The Edge</display-name></channel>
+  <channel id="RNZConcert"><display-name>RNZ Concert</display-name></channel>
+  <channel id="RadioHauraki"><display-name>Radio Hauraki</display-name></channel>
+  <channel id="Coast"><display-name>Coast</display-name></channel>
+  <channel id="TahuFM"><display-name>Tahu FM</display-name></channel>
+  <channel id="Gold"><display-name>Gold</display-name></channel>
+  <channel id="MoreFM"><display-name>More FM</display-name></channel>
+  <channel id="TheSound"><display-name>The Sound</display-name></channel>
+  <channel id="Flava"><display-name>Flava</display-name></channel>
+  <channel id="TheRock"><display-name>The Rock</display-name></channel>
+  <channel id="LifeFM"><display-name>Life FM</display-name></channel>
+  <channel id="TheBreeze"><display-name>The Breeze</display-name></channel>
+  <channel id="PlainsFM"><display-name>Plains FM</display-name></channel>
+  <channel id="TheHits"><display-name>The Hits</display-name></channel>
+  <channel id="RDU985"><display-name>RDU 98.5</display-name></channel>
+  <channel id="Magic"><display-name>Magic</display-name></channel>
+  <channel id="NewstalkZB"><display-name>Newstalk ZB</display-name></channel>
+  <channel id="BrianFM"><display-name>Brian FM</display-name></channel>
+  <channel id="RNZNational"><display-name>RNZ National</display-name></channel>
+  <channel id="CompassFM"><display-name>Compass FM</display-name></channel>
+  <channel id="PMN531"><display-name>PMN 531</display-name></channel>
+  <channel id="MaiFM"><display-name>Mai FM</display-name></channel>
+  <channel id="RadioOne"><display-name>Radio One</display-name></channel>
+
+  <!-- PROGRAMME ENTRIES -->
+  
+  <!-- George FM-->
+  <!-- Monday-->
+  <programme start="20250428060000 +1200" stop="20250428100000 +1200" channel="GeorgeFM">
+    <title>George Breakfast with Lee &amp; Tammy</title>
+    <desc>Weekday mornings with Lee &amp; Tammy</desc>
+  </programme>
+  <programme start="20250428100000 +1200" stop="20250428150000 +1200" channel="GeorgeFM">
+    <title>George Mahi Mix with Beiks</title>
+    <desc>Midday beats with Beiks</desc>
+  </programme>
+  <programme start="20250428150000 +1200" stop="20250428190000 +1200" channel="GeorgeFM">
+    <title>George Drive with Sin &amp; Brook</title>
+    <desc>Afternoon drive show</desc>
+  </programme>
+  <programme start="20250428190000 +1200" stop="20250428240000 +1200" channel="GeorgeFM">
+    <title>George Nights with Beccie B</title>
+    <desc>Evening tunes with Beccie B</desc>
+  </programme>
+
+  <!-- Tuesday-->
+  <programme start="20250429060000 +1200" stop="20250429100000 +1200" channel="GeorgeFM">
+    <title>George Breakfast with Lee &amp; Tammy</title>
+    <desc>Weekday mornings with Lee &amp; Tammy</desc>
+  </programme>
+  <programme start="20250429100000 +1200" stop="20250429150000 +1200" channel="GeorgeFM">
+    <title>George Mahi Mix with Beiks</title>
+    <desc>Midday beats with Beiks</desc>
+  </programme>
+  <programme start="20250429150000 +1200" stop="20250429190000 +1200" channel="GeorgeFM">
+    <title>George Drive with Sin &amp; Brook</title>
+    <desc>Afternoon drive show</desc>
+  </programme>
+  <programme start="20250429190000 +1200" stop="20250429240000 +1200" channel="GeorgeFM">
+    <title>George Nights with Beccie B</title>
+    <desc>Evening tunes with Beccie B</desc>
+  </programme>
+
+  <!-- Wednesday-->
+  <programme start="20250430060000 +1200" stop="20250430100000 +1200" channel="GeorgeFM">
+    <title>George Breakfast with Lee &amp; Tammy</title>
+    <desc>Weekday mornings with Lee &amp; Tammy</desc>
+  </programme>
+  <programme start="20250430100000 +1200" stop="20250430150000 +1200" channel="GeorgeFM">
+    <title>George Mahi Mix with Beiks</title>
+    <desc>Midday beats with Beiks</desc>
+  </programme>
+  <programme start="20250430150000 +1200" stop="20250430190000 +1200" channel="GeorgeFM">
+    <title>George Drive with Sin &amp; Brook</title>
+    <desc>Afternoon drive show</desc>
+  </programme>
+  <programme start="20250430190000 +1200" stop="20250501240000 +1200" channel="GeorgeFM">
+    <title>George Nights with Beccie B</title>
+    <desc>Evening tunes with Beccie B</desc>
+  </programme>
+
+  <!-- Thursday-->
+  <programme start="20250501060000 +1200" stop="20250501100000 +1200" channel="GeorgeFM">
+    <title>George Breakfast with Lee &amp; Tammy</title>
+    <desc>Weekday mornings with Lee &amp; Tammy</desc>
+  </programme>
+  <programme start="20250501100000 +1200" stop="20250501150000 +1200" channel="GeorgeFM">
+    <title>George Mahi Mix with Beiks</title>
+    <desc>Midday beats with Beiks</desc>
+  </programme>
+  <programme start="20250501150000 +1200" stop="20250501190000 +1200" channel="GeorgeFM">
+    <title>George Drive with Sin &amp; Brook</title>
+    <desc>Afternoon drive show</desc>
+  </programme>
+  <programme start="20250501190000 +1200" stop="20250502240000 +1200" channel="GeorgeFM">
+    <title>George Nights with Beccie B</title>
+    <desc>Evening tunes with Beccie B</desc>
+  </programme>
+
+  <!-- Friday-->
+  <programme start="20250502060000 +1200" stop="20250502090000 +1200" channel="GeorgeFM">
+    <title>George Breakfast with Lee &amp; Tammy</title>
+    <desc>Friday morning show</desc>
+  </programme>
+  <programme start="20250502100000 +1200" stop="20250502150000 +1200" channel="GeorgeFM">
+    <title>George Mahi Mix with Beiks</title>
+    <desc>Friday midday beats</desc>
+  </programme>
+  <programme start="20250502150000 +1200" stop="20250502190000 +1200" channel="GeorgeFM">
+    <title>George Drive with Sin &amp; Brook</title>
+    <desc>Friday drive show</desc>
+  </programme>
+  <programme start="20250502190000 +1200" stop="20250502210000 +1200" channel="GeorgeFM">
+    <title>Fridoof with Benny Boy &amp; Tizza</title>
+    <desc>Friday night starters</desc>
+  </programme>
+  <programme start="20250502210000 +1200" stop="20250502220000 +1200" channel="GeorgeFM">
+    <title>Full Send Friday with Twentytwo &amp; Sly Chaos</title>
+    <desc>Late Friday party vibes</desc>
+  </programme>
+  <programme start="20250502220000 +1200" stop="20250503000000 +1200" channel="GeorgeFM">
+    <title>George Nights with Beccie B</title>
+    <desc>Friday night extension</desc>
+  </programme>
+
+  <!-- Saturday-->
+  <programme start="20250503000000 +1200" stop="20250503060000 +1200" channel="GeorgeFM">
+    <title>Beats Working</title>
+    <desc>Overnight beats</desc>
+  </programme>
+  <programme start="20250503060000 +1200" stop="20250503090000 +1200" channel="GeorgeFM">
+    <title>time &amp; a half with Beccie B &amp; Crafty</title>
+    <desc>Saturday morning vibes</desc>
+  </programme>
+  <programme start="20250503090000 +1200" stop="20250503100000 +1200" channel="GeorgeFM">
+    <title>The Magik Hour with Dick Johnson</title>
+    <desc>Magic Saturday hour</desc>
+  </programme>
+  <programme start="20250503100000 +1200" stop="20250503120000 +1200" channel="GeorgeFM">
+    <title>Saturday Morning with Grant Marshall</title>
+    <desc>Weekend kick-off show</desc>
+  </programme>
+  <programme start="20250503120000 +1200" stop="20250503150000 +1200" channel="GeorgeFM">
+    <title>Saturday Revival with Rangi</title>
+    <desc>Afternoon revival tunes</desc>
+  </programme>
+  <programme start="20250503190000 +1200" stop="20250503240000 +1200" channel="GeorgeFM">
+    <title>The Ad Free Saturday Night House Party</title>
+    <desc>All-night weekend party</desc>
+  </programme>
+
+  <!-- Sunday -->
+  <programme start="20250504000000 +1200" stop="20250504060000 +1200" channel="GeorgeFM">
+    <title>Beats Working</title>
+    <desc>Overnight beats</desc>
+  </programme>
+  <programme start="20250504060000 +1200" stop="20250504120000 +1200" channel="GeorgeFM">
+    <title>George Chillsville</title>
+    <desc>Lazy Sunday chill</desc>
+  </programme>
+  <programme start="20250504120000 +1200" stop="20250504140000 +1200" channel="GeorgeFM">
+    <title>The Brightside with Bavhu</title>
+    <desc>Sunday afternoon brightness</desc>
+  </programme>
+  <programme start="20250504140000 +1200" stop="20250504160000 +1200" channel="GeorgeFM">
+    <title>The Sunday Sesh with Lew &amp; Ro</title>
+    <desc>Live Sunday sessions</desc>
+  </programme>
+  <programme start="20250504160000 +1200" stop="20250504170000 +1200" channel="GeorgeFM">
+    <title>The Good Radio Show with Tim Lambourne</title>
+    <desc>Quality Sunday radio</desc>
+  </programme>
+  <programme start="20250504170000 +1200" stop="20250504180000 +1200" channel="GeorgeFM">
+    <title>The Sunday Shuffle with Asher Bastion</title>
+    <desc>Sunday shuffle</desc>
+  </programme>
+  <programme start="20250504180000 +1200" stop="20250504190000 +1200" channel="GeorgeFM">
+    <title>The Liquid Lowdown with Chiccoreli</title>
+    <desc>Smooth Sunday grooves</desc>
+  </programme>
+  <programme start="20250504190000 +1200" stop="20250504200000 +1200" channel="GeorgeFM">
+    <title>The Process with Strauss</title>
+    <desc>Deep dive with Strauss</desc>
+  </programme>
+  <programme start="20250504200000 +1200" stop="20250505000000 +1200" channel="GeorgeFM">
+    <title>Beats Working</title>
+    <desc>Overnight beats</desc>
+  </programme>
+
+
+  <!-- ZM (Mon–Fri) -->
+  <programme start="20250428060000 +1200" stop="20250428090000 +1200" channel="ZM">
+    <title>Breakfast with Fletch, Vaughan &amp; Hayley</title>
+    <desc>Weekday mornings</desc>
+  </programme>
+  <programme start="20250428103000 +1200" stop="20250428150000 +1200" channel="ZM">
+    <title>Jam Packed Workday with Georgia</title>
+    <desc>10:30–15:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428150000 +1200" stop="20250428190000 +1200" channel="ZM">
+    <title>Drive with Bree &amp; Clint</title>
+    <desc>Afternoon drive show</desc>
+  </programme>
+  <programme start="20250428190000 +1200" stop="20250428240000 +1200" channel="ZM">
+    <title>ZM Late Show</title>
+    <desc>Evening hits &amp; requests</desc>
+  </programme>
+  <programme start="20250503000000 +1200" stop="20250505000000 +1200" channel="ZM">
+    <title>ZM Live Broadcast</title>
+    <desc>Weekend music</desc>
+  </programme>
+
+  <!-- The Edge -->
+  <programme start="20250428060000 +1200" stop="20250428100000 +1200" channel="TheEdge">
+    <title>The Edge Breakfast with Clint, Meg &amp; Dan</title>
+    <desc>Weekday breakfast show</desc>
+  </programme>
+  <programme start="20250428100000 +1200" stop="20250428150000 +1200" channel="TheEdge">
+    <title>The Edge Workday with Yas</title>
+    <desc>10:00–15:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428150000 +1200" stop="20250428190000 +1200" channel="TheEdge">
+    <title>The Edge Arvos with Sean, Steph &amp; Harrison</title>
+    <desc>15:00–19:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428190000 +1200" stop="20250428240000 +1200" channel="TheEdge">
+    <title>The Edge Nights with Cal</title>
+    <desc>19:00–00:00 Weekdays</desc>
+  </programme>
+  <programme start="20250503000000 +1200" stop="20250505000000 +1200" channel="TheEdge">
+    <title>The Edge Live Broadcast</title>
+    <desc>Weekend music</desc>
+  </programme>
+
+  <!-- RNZ Concert -->
+  <programme start="20250428060000 +1200" stop="20250428090000 +1200" channel="RNZConcert">
+    <title>Morning Concert</title><desc>Classical favourites</desc>
+  </programme>
+  <programme start="20250428090000 +1200" stop="20250428120000 +1200" channel="RNZConcert">
+    <title>Midday Concert</title><desc>Live performances</desc>
+  </programme>
+  <programme start="20250428120000 +1200" stop="20250428170000 +1200" channel="RNZConcert">
+    <title>Afternoon Concert</title><desc>Afternoon classical</desc>
+  </programme>
+  <programme start="20250428170000 +1200" stop="20250428220000 +1200" channel="RNZConcert">
+    <title>Evening Concert</title><desc>Evening classical</desc>
+  </programme>
+  <programme start="20250428220000 +1200" stop="20250429060000 +1200" channel="RNZConcert">
+    <title>Overnight Music</title><desc>Late-night classical &amp; jazz</desc>
+  </programme>
+
+  <!-- Radio Hauraki -->
+  <programme start="20250428060000 +1200" stop="20250428090000 +1200" channel="RadioHauraki">
+    <title>Hauraki Breakfast with Jeremy Wells &amp; Manaia Stewart</title>
+    <desc>06:00–09:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428090000 +1200" stop="20250428140000 +1200" channel="RadioHauraki">
+    <title>Weekdays with Angelina Grey</title>
+    <desc>09:00–14:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428140000 +1200" stop="20250428160000 +1200" channel="RadioHauraki">
+    <title>Afternoons with Greg Prebble</title>
+    <desc>14:00–16:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428160000 +1200" stop="20250428190000 +1200" channel="RadioHauraki">
+    <title>The Big Show with Jase, Mike &amp; Keyzie</title>
+    <desc>16:00–19:00 Weekdays</desc>
+  </programme>
+  <programme start="20250503000000 +1200" stop="20250503235959 +1200" channel="RadioHauraki">
+    <title>Radio Hauraki Live Broadcast</title><desc>Weekend music</desc>
+  </programme>
+
+  <!-- Coast -->
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="Coast">
+    <title>Coast Live Broadcast</title>
+  </programme>
+
+  <!-- Tahu FM -->
+  <programme start="20250428000000 +1200" stop="20250428150000 +1200" channel="TahuFM">
+    <title>The Tahu FM Live Broadcast</title>
+    <desc>00:00–15:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428150000 +1200" stop="20250428190000 +1200" channel="TahuFM">
+    <title>Te Ihi with Pou</title><desc>15:00–19:00 Weekdays</desc>
+  </programme>
+  <programme start="20250428190000 +1200" stop="20250429000000 +1200" channel="TahuFM">
+    <title>The Tahu FM Live Broadcast</title>
+    <desc>19:00–24:00 Weekdays</desc>
+  </programme>
+  <programme start="20250503000000 +1200" stop="20250503235959 +1200" channel="TahuFM">
+    <title>The Tahu FM Live Broadcast</title><desc>Weekend broadcast</desc>
+  </programme>
+  <programme start="20250504000000 +1200" stop="20250504235959 +1200" channel="TahuFM">
+    <title>The Tahu FM Live Broadcast</title><desc>Weekend broadcast</desc>
+  </programme>
+
+  <!-- All other stations: generic 24-hour blocks -->
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="Gold"><title>Gold Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="MoreFM"><title>More FM Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="TheSound"><title>The Sound Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="Flava"><title>Flava Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="TheRock"><title>The Rock Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="LifeFM"><title>Life FM Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="TheBreeze"><title>The Breeze Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="PlainsFM"><title>Plains FM Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="TheHits"><title>The Hits Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="RDU985"><title>RDU 98.5 Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="Magic"><title>Magic Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="NewstalkZB"><title>Newstalk ZB Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="BrianFM"><title>Brian FM Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="RNZNational"><title>RNZ National Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="CompassFM"><title>Compass FM Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="PMN531"><title>PMN 531 Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="MaiFM"><title>Mai FM Live Broadcast</title></programme>
+  <programme start="20250428000000 +1200" stop="20250428235959 +1200" channel="RadioOne"><title>Radio One Live Broadcast</title></programme>
+
 </tv>
