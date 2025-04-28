@@ -1,3 +1,78 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="GeorgeFM" tvg-name="George FM" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/42/GeorgeFM.png" group-title="Radio",George FM
+
+# Christchurch / Canterbury Stations
+#EXTINF:-1 tvg-id="TheEdge"   tvg-name="The Edge (88.9 FM Christchurch)"      tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4f/The_Edge_logo.png"       group-title="Radio",The Edge (88.9 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/THE_EDGE_AAC.aac
+
+#EXTINF:-1 tvg-id="RadioHauraki" tvg-name="Radio Hauraki (89.3 FM Christchurch)"  tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/10/Radio_Hauraki_logo.png"     group-title="Radio",Radio Hauraki (89.3 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/HAURAKI_AAC.aac
+
+#EXTINF:-1 tvg-id="RNZConcert" tvg-name="RNZ Concert (89.7 FM Christchurch)"     tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a2/RNZ_Concert_logo.png"    group-title="Radio",RNZ Concert (89.7 FM Christchurch)
+https://www.rnz.co.nz/audio/player/stream/2504
+
+#EXTINF:-1 tvg-id="Coast"      tvg-name="Coast (90.1 FM Christchurch)"           tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/Coast_logo.png"            group-title="Radio",Coast (90.1 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/COAST_AAC.aac
+
+#EXTINF:-1 tvg-id="TahuFM"     tvg-name="Tahu FM (90.5 FM Christchurch)"        tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/34/TahuFM_logo.png"          group-title="Radio",Tahu FM (90.5 FM Christchurch)
+https://stream.tahufm.nz/tahufm.mp3
+
+#EXTINF:-1 tvg-id="ZM"         tvg-name="ZM (91.3 FM Christchurch)"             tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/32/ZM_logo.png"               group-title="Radio",ZM (91.3 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/ZM_AAC.aac
+
+#EXTINF:-1 tvg-id="Gold"       tvg-name="Gold (91.7 FM Christchurch)"           tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/99/Gold_Radio_logo.png"       group-title="Radio",Gold (91.7 FM Christchurch)
+https://stream.gold.co.nz/gold.mp3
+
+#EXTINF:-1 tvg-id="MoreFM"     tvg-name="More FM (92.1 FM Christchurch)"        tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ab/More_FM_logo.png"         group-title="Radio",More FM (92.1 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/MORE_FM_AAC.aac
+
+#EXTINF:-1 tvg-id="TheSound"   tvg-name="The Sound (92.9 FM Christchurch)"      tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1b/The_Sound_logo.png"       group-title="Radio",The Sound (92.9 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/THE_SOUND_AAC.aac
+
+#EXTINF:-1 tvg-id="Flava"      tvg-name="Flava (93.3 FM Christchurch)"          tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6f/Flava_radio_logo.png"      group-title="Radio",Flava (93.3 FM Christchurch)
+https://flava.streamguys1.com/flava_mono
+
+#EXTINF:-1 tvg-id="TheRock"    tvg-name="The Rock (93.7 FM Christchurch)"       tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/31/The_Rock_Logo_2018.png" group-title="Radio",The Rock (93.7 FM Christchurch)
+https://media.stream.themediaworks.net/rock_nz/live
+
+#EXTINF:-1 tvg-id="LifeFM"     tvg-name="Life FM (94.1 FM Christchurch)"         tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5b/LifeFM_logo.png"          group-title="Radio",Life FM (94.1 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/LIFE_FM_AAC.aac
+
+#EXTINF:-1 tvg-id="TheBreeze"  tvg-name="The Breeze (94.5 FM Christchurch)"      tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/49/The_Breeze_logo.png"      group-title="Radio",The Breeze (94.5 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/THE_BREEZE_AAC.aac
+
+#EXTINF:-1 tvg-id="GeorgeFM"   tvg-name="George FM (95.3 FM Christchurch)"      tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/42/GeorgeFM.png"             group-title="Radio",George FM (95.3 FM Christchurch)
 https://mediaworks.streamguys1.com/george_net/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PlainsFM"   tvg-name="Plains FM (96.9 FM Christchurch)"      tvg-logo="https://www.plainsfm.org.nz/images/logo.png"                             group-title="Radio",Plains FM (96.9 FM Christchurch)
+http://streaming.plainsfm.org:8000/plainsfm.mp3
+
+#EXTINF:-1 tvg-id="TheHits"    tvg-name="The Hits (97.7 FM Christchurch)"       tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0a/The_Hits_logo.png"         group-title="Radio",The Hits (97.7 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/THE_HITS_AAC.aac
+
+#EXTINF:-1 tvg-id="RDU985"     tvg-name="RDU 98.5 (Christchurch)"               tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8a/RDU_logo.png"              group-title="Radio",RDU 98.5 (Christchurch)
+https://rdu.streamguys1.com/rdu.mp3
+
+#EXTINF:-1 tvg-id="Magic"      tvg-name="Magic (99.3 FM Christchurch)"          tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c6/Magic_Radio_Logo_2021.png" group-title="Radio",Magic (99.3 FM Christchurch)
+https://stream.magic.co.nz/magicstream
+
+#EXTINF:-1 tvg-id="NewstalkZB" tvg-name="Newstalk ZB (100.1 FM Christchurch)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/50/Newstalk_ZB_logo.png" group-title="Radio",Newstalk ZB (100.1 FM Christchurch)
+https://player.streamguys.com/stream/nzbroadband
+
+#EXTINF:-1 tvg-id="BrianFM"    tvg-name="Brian FM (100.5 FM Christchurch)"      tvg-logo="https://brianfm.net/logo.png"                                             group-title="Radio",Brian FM (100.5 FM Christchurch)
+https://brianfm.streamguys1.com/brianfm.mp3
+
+#EXTINF:-1 tvg-id="RNZNational" tvg-name="RNZ National (101.7 FM Christchurch)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/1e/RNZ_National_logo.png"    group-title="Radio",RNZ National (101.7 FM Christchurch)
+https://www.rnz.co.nz/audio/player/stream/national
+
+#EXTINF:-1 tvg-id="CompassFM"  tvg-name="Compass FM (103.7 FM Christchurch)"    tvg-logo="https://www.compassfm.co.nz/assets/logo.png"                             group-title="Radio",Compass FM (103.7 FM Christchurch)
+https://stream.compassfm.co.nz/compassfm.mp3
+
+#EXTINF:-1 tvg-id="PMN531"     tvg-name="PMN 531 (104.1 FM Christchurch)"       tvg-logo="https://pmn531.org.nz/wp-content/uploads/2020/01/logo.png"               group-title="Radio",PMN 531 (104.1 FM Christchurch)
+https://pmn531.streamguys1.com/pmn531.mp3
+
+#EXTINF:-1 tvg-id="MaiFM"      tvg-name="Mai FM (106.8 FM Christchurch)"        tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9a/Mai_FM_logo.png"           group-title="Radio",Mai FM (106.8 FM Christchurch)
+https://playerservices.streamtheworld.com/api/livestream-redirect/MAIFM_AAC.aac
+
+# Dunedin
+#EXTINF:-1 tvg-id="RadioOne"   tvg-name="Radio One (91.0 FM Dunedin)"           tvg-logo="https://www.radioone.co.nz/assets/logo.png"                             group-title="Radio",Radio One (91.0 FM Dunedin)
+https://radioone.otago.ac.nz/live
