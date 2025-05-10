@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matthews Hosted URLs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+    }
+    .category {
+      margin-top: 2rem;
+    }
+    .service {
+      display: flex;
+      align-items: center;
+      margin: 0.3rem 0;
+    }
+    .status {
+      width: 20px;
+      text-align: center;
+    }
+    .name {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+    .description {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Matthews Hosted URLs</h1>
+
+  <div id="content"></div>
+
+  <script>
+    const services = [
+      {
+        category: "Media Servers",
+        items: [
+          { name: "Jellyfin", url: "https://jellyfin.matthewvincent.dev", description: "Open-source media server for movies, TV, and music." },
+          { name: "Plex", url: "https://plex.matthewvincent.dev", description: "Media streaming server with wide client support." },
+          { name: "Jellyfin Stats", url: "https://jellystats.matthewvincent.dev", description: "Analytics for your Jellyfin server." },
+          { name: "Tautulli", url: "https://tautulli.matthewvincent.dev", description: "Monitor and analyze Plex server usage." }
+        ]
+      },
+      {
+        category: "Media Downloading",
+        items: [
+          { name: "Radarr", url: "https://radarr.matthewvincent.dev", description: "Movies downloader for Usenet and torrents." },
+          { name: "Sonarr", url: "https://sonarr.matthewvincent.dev", description: "TV show downloader and manager." },
+          { name: "Lidarr", url: "https://lidarr.matthewvincent.dev", description: "Music downloader and organizer." },
+          { name: "qBitTorrent", url: "https://qbittorrent.matthewvincent.dev", description: "BitTorrent client for downloading files." },
+          { name: "Jackett", url: "https://jackett.matthewvincent.dev", description: "Indexer proxy for torrent trackers." },
+          { name: "Prowlarr", url: "https://prowlarr.matthewvincent.dev", description: "Indexer manager for Sonarr and Radarr." },
+          { name: "Bazarr", url: "https://bazarr.matthewvincent.dev", description: "Subtitle downloader and manager." },
+          { name: "Flaresolverr", url: "https://flaresolverr.matthewvincent.dev", description: "Bypasses Cloudflare for Jackett & others." },
+        ]
+      },
+      {
+        category: "Smart Home",
+        items: [
+          { name: "Home Assistant", url: "https://hass.matthewvincent.dev", description: "Local smart home automation platform." }
+        ]
+      },
+      {
+        category: "Infrastructure",
+        items: [
+          { name: "Overseerr", url: "https://overseerr.matthewvincent.dev", description: "Request manager for media from users." },
+          { name: "Portainer", url: "https://docker.matthewvincent.dev", description: "Web UI for managing Docker containers." }
+        ]
+      }
+    ];
+
+    const container = document.getElementById('content');
+
+    services.forEach(group => {
+      const catDiv = document.createElement('div');
+      catDiv.className = 'category';
+      const catTitle = document.createElement('h2');
+      catTitle.textContent = group.category;
+      catDiv.appendChild(catTitle);
+
+      group.items.forEach(service => {
+        const svcDiv = document.createElement('div');
+        svcDiv.className = 'service';
+
+        const status = document.createElement('span');
+        status.className = 'status';
+        status.textContent = '⏳'; // Placeholder until checked
+
+        const link = document.createElement('a');
+        link.className = 'name';
+        link.href = service.url;
+        link.textContent = service.name;
+        link.target = "_blank";
+
+        const desc = document.createElement('span');
+        desc.className = 'description';
+        desc.textContent = `– ${service.description}`;
+
+        svcDiv.appendChild(status);
+        svcDiv.appendChild(link);
+        svcDiv.appendChild(desc);
+        catDiv.appendChild(svcDiv);
+
+        fetch(service.url, { method: 'HEAD', mode: 'no-cors' })
+          .then(() => status.textContent = '✔️')
+          .catch(() => status.textContent = '❌');
+      });
+
+      container.appendChild(catDiv);
+    });
+  </script>
+</body>
+</html>
