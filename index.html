@@ -43,7 +43,20 @@
         category: "Media Servers",
         items: [
           { name: "Jellyfin", url: "https://jellyfin.matthewvincent.dev", description: "Open-source media server for movies, TV, and music." },
-          { name: "Plex", url: "https://plex.matthewvincent.dev", description: "Media streaming server with wide client support." },
+          { name: "Plex", url: "https://plex.matthewvincent.dev/web", description: "Media streaming server with wide client support." }
+        ]
+      },
+      {
+        category: "Media Requesting",
+        items: [
+          { name: "SuggestArr", url: "https://suggestarr.matthewvincent.dev", description: "Request media to be downloaded." },
+          { name: "Jellyseerr", url: "https://jellyseerr.matthewvincent.dev", description: "Request media to be downloaded for Jellyfin." },
+          { name: "Overseerr", url: "https://overseerr.matthewvincent.dev", description: "Request media to be downloaded for Plex." }
+        ]
+      },
+      {
+        category: "Media Server Stats",
+        items: [
           { name: "Jellyfin Stats", url: "https://jellystats.matthewvincent.dev", description: "Analytics for your Jellyfin server." },
           { name: "Tautulli", url: "https://tautulli.matthewvincent.dev", description: "Monitor and analyze Plex server usage." }
         ]
@@ -51,14 +64,12 @@
       {
         category: "Media Downloading",
         items: [
-          { name: "Radarr", url: "https://radarr.matthewvincent.dev", description: "Movies downloader for Usenet and torrents." },
+          { name: "Trailarr", url: "https://trailarr.matthewvincent.dev", description: "Trailer downloader and manager." },
+          { name: "Radarr", url: "https://radarr.matthewvincent.dev", description: "Movies downloader and manager." },
           { name: "Sonarr", url: "https://sonarr.matthewvincent.dev", description: "TV show downloader and manager." },
-          { name: "Lidarr", url: "https://lidarr.matthewvincent.dev", description: "Music downloader and organizer." },
-          { name: "qBitTorrent", url: "https://qbittorrent.matthewvincent.dev", description: "BitTorrent client for downloading files." },
-          { name: "Jackett", url: "https://jackett.matthewvincent.dev", description: "Indexer proxy for torrent trackers." },
-          { name: "Prowlarr", url: "https://prowlarr.matthewvincent.dev", description: "Indexer manager for Sonarr and Radarr." },
+          { name: "Lidarr", url: "https://lidarr.matthewvincent.dev", description: "Music downloader and manager." },
           { name: "Bazarr", url: "https://bazarr.matthewvincent.dev", description: "Subtitle downloader and manager." },
-          { name: "Flaresolverr", url: "https://flaresolverr.matthewvincent.dev", description: "Bypasses Cloudflare for Jackett & others." },
+          { name: "qBitTorrent", url: "https://qbittorrent.matthewvincent.dev/index.html", description: "BitTorrent client." }
         ]
       },
       {
@@ -68,9 +79,16 @@
         ]
       },
       {
-        category: "Infrastructure",
+        category: "Indexes",
         items: [
-          { name: "Overseerr", url: "https://overseerr.matthewvincent.dev", description: "Request manager for media from users." },
+          { name: "Jackett", url: "https://jackett.matthewvincent.dev", description: "Indexer proxy for torrent trackers." },
+          { name: "Prowlarr", url: "https://prowlarr.matthewvincent.dev", description: "Indexer manager for Sonarr and Radarr." },
+          { name: "Flaresolverr", url: "https://flaresolverr.matthewvincent.dev", description: "Bypasses Cloudflare for Jackett & others." }
+        ]
+      },
+      {
+        category: "Setup",
+        items: [
           { name: "Portainer", url: "https://docker.matthewvincent.dev", description: "Web UI for managing Docker containers." }
         ]
       }
